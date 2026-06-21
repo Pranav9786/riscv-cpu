@@ -6,8 +6,7 @@ module alu(
     output logic zero
   );
 
-  always_comb
-  begin
+  always_comb begin
     case (alu_control)
       4'b0000: result = a + b; //Add
       4'b0001: result = a - b; //Subtract
