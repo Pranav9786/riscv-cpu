@@ -1,4 +1,4 @@
-TOP = alu
+TOP = regfile
 RTL_DIR = rtl
 TB_DIR = tb
 SIM_DIR = sim
