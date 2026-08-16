@@ -1,5 +1,6 @@
+//instruction memory
 module imem(
-    input  logic [31:0] address,
+    input logic [31:0] address,
     output logic [31:0] instr
 );
 
