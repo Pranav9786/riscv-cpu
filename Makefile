@@ -1,4 +1,4 @@
-TOP = dmem
+TOP = control
 RTL_DIR = rtl
 TB_DIR = tb
 SIM_DIR = sim
